@@ -84,9 +84,9 @@ AutoCompleteTextView actv;
                 ar.add(jObj.getString("Country"));
                 //ad = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,ar);
                 //actv.setAdapter(ad);
-//                  for(int ij = 0; ij < ar.size(); ij++) {
-//                     Log.i("Arraylist",ar.get(ij));
-//                  }
+                  for(int ij = 0; ij < ar.size(); ij++) {
+                   Log.i("Arraylist",ar.get(ij));
+                  }
               }  ad = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,ar);
                  actv.setAdapter(ad);
                         //for(int ij = 0; ij < ar.size(); ij++) {

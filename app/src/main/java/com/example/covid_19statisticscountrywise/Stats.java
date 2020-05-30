@@ -69,7 +69,7 @@ public class Stats extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            return null;
+            return "";
         }
 
         @Override
